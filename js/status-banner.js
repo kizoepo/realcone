@@ -1,6 +1,6 @@
 (async () => {
   try {
-    const r = await fetch('https://api.projectreal.gg/status', {
+    const r = await fetch('https://disabled.invalid/status', {
       signal: AbortSignal.timeout(4000),
     });
     if (!r.ok) return;
